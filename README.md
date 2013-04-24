@@ -13,7 +13,7 @@ Goals:
 
 3) Less than 10 second load.
 
-======
-Recommended Query:
 
+Recommended Query:
+======
 SELECT members.id AS memberId, username, status FROM members, operation_attendees WHERE  operation_attendees.member_id=members.id AND operation_id='". $row['id'] ."'
