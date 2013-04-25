@@ -17,3 +17,15 @@ Goals:
 Recommended Query:
 ======
 SELECT members.id AS memberId, username, status FROM members, operation_attendees WHERE  operation_attendees.member_id=members.id AND operation_id='". $row['id'] ."'
+
+
+Status:
+=====
+
+If I own the OP (operation_aar.php?id=####) the AAR is lightning fast now.  This is a HUGE step in the right direction!
+
+However, (sorry)....
+
+If I'm an Officer(operation_aar.php?op=edit&id=####), and I have to manually edit the AAR (S1 does this frequently) - it does not load the memberlist (for attendance) - only the aar field.
+
+Great progress Dark.  Guys continue to offer input.
